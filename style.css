@@ -4,7 +4,15 @@ img {
     height: 500px;
 }
 
-
+h1{
+    color: #F5F4D3;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    color: #F5F4D3;
+    font-family: 'Times New Roman', Times, serif;
+}
 .fa {
  padding: 20px;
  font-size: 25px;
@@ -23,7 +31,3 @@ img {
     background: #3B5998;
     color: white;
 }
-.fa-shopping-cart{
-    
-}
-
