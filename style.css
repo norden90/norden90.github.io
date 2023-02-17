@@ -1,9 +1,19 @@
 img {
 
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
-
+#logo{
+    width: 800px;
+    height: 800px;
+}
+.kebabspett{
+    width: 800px;
+    height: auto;
+    align-items: center;
+    float: right;
+    
+}
 h1{
     color: #F5F4D3;
     font-family: 'Times New Roman', Times, serif;
@@ -11,7 +21,7 @@ h1{
 }
 h2{
     color: #F5F4D3;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .fa {
  padding: 20px;
@@ -21,7 +31,9 @@ h2{
  text-decoration: none;
  margin: 5px 2px;
  }
-
+.welcome{
+    font-size: 40px;
+}
 .fa-facebook {
     
     background: #3B5998;
@@ -31,3 +43,7 @@ h2{
     background: #3B5998;
     color: white;
 }
+.aboutus{
+ font-size:x-large
+}
+
