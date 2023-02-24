@@ -96,7 +96,7 @@ function displayKebabs() {
     const kebabElement = document.createElement("div");
     kebabElement.innerHTML = `
     <h2>${kebab.name}</h2>
-    <img src="pics/${kebab.picture}" alt="${kebab.name}">
+    <img class="img-fluid" src="pics/${kebab.picture}" alt="${kebab.name}">
     <p>Ingredienser: ${kebab.ingredients.join(", ")}</p>
     <p>Pris: ${kebab.price} kr</p>
   `;
@@ -124,7 +124,7 @@ function displayPizzas() {
     const pizzaElement = document.createElement("div");
     pizzaElement.innerHTML = `
     <h2>${pizza.name}</h2>
-    <img src="pics/${pizza.picture}" alt="${pizza.name}">
+    <img class="img-fluid" src="pics/${pizza.picture}" alt="${pizza.name}">
     <p>Ingredienser: ${pizza.ingredients.join(", ")}</p>
     <p>Pris: ${pizza.price} kr</p>
   `;
@@ -152,7 +152,7 @@ function displaySallads() {
     const salladElement = document.createElement("div");
     salladElement.innerHTML = `
     <h2>${sallad.name}</h2>
-    <img src="pics/${sallad.picture}" alt="${sallad.name}">
+    <img class="img-fluid" src="pics/${sallad.picture}" alt="${sallad.name}">
     <p>Ingredienser: ${sallad.ingredients.join(", ")}</p>
     <p>Pris: ${sallad.price} kr</p>
   `;
