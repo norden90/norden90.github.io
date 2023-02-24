@@ -4,10 +4,10 @@ img {
     height: 400px;
 }
 #logo{
-    width: 800px;
-    height: 800px;
+    width: 550px;
+    height: 550px;
 }
-.kebabspett{
+#kebabspett{
     width: 800px;
     height: auto;
     align-items: center;
